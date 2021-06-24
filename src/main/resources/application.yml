@@ -1,0 +1,11 @@
+##THYMELEAF DEVELOP
+spring:
+  thymeleaf:
+    cache: false
+  main:
+    allow-bean-definition-overriding: true
+
+logging:
+  level:
+    org.springframework: info
+    io.github.benkoff.webrtcss: debug
